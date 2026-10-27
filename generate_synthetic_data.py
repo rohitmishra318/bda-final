@@ -301,7 +301,7 @@ while current < END_TIME:
             "msn": msn,
             "msn_id": msn_to_id[msn],
             "evnt_id": evnt_id,
-            "ts": event_time.isoformat(timespec="milliseconds"),
+            "ts": event_time.strftime("%Y-%m-%d %H:%M:%S.") + f"{event_time.microsecond // 1000:03d}",
             "dt": int(current.strftime("%Y%m%d%H%M")),
             "log_seq_no": log_seq,
             "v_r": v_r,
@@ -367,8 +367,8 @@ for (msn, window_start), evts in bucket_events.items():
 
     rows.append({
         "msn": msn,
-        "window_start": window_start.isoformat(),
-        "window_end": window_end.isoformat(),
+        "window_start": window_start.strftime("%Y-%m-%d %H:%M:%S"),
+        "window_end": window_end.strftime("%Y-%m-%d %H:%M:%S"),
         "event_count_15m": len(evts),
         "avg_voltage_15m": avg_voltage,
         "voltage_range_15m": voltage_range,

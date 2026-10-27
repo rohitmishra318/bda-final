@@ -1,0 +1,18 @@
+apiVersion: 1
+
+datasources:
+  - name: ClickHouse
+    uid: efuuaer7ugjcwa
+    type: grafana-clickhouse-datasource
+    access: proxy
+    url: http://clickhouse:8123
+    secureJsonData:
+      password: ${CLICKHOUSE_PASSWORD}
+    jsonData:
+      defaultDatabase: event_intelligence
+      host: clickhouse
+      username: event_user
+      protocol: http
+      port: 8123
+    isDefault: true
+    editable: true

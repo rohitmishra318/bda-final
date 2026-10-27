@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 
 import joblib
 import pandas as pd
@@ -15,6 +15,12 @@ ALL_FEATURES = [
     "power_failure_count_15m",
 ]
 
+# AnomalyScoringFunction.java is hardcoded to pass only 3 features
+# (power_failure_count_15m is excluded because it was constant-zero
+# in the original operational training data — the Java scorer does
+# not include it in the input array).
+FORCE_EXCLUDED_FEATURES = ["power_failure_count_15m"]
+
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -29,10 +35,11 @@ missing = df[ALL_FEATURES].isna().sum()
 print("\nMissing values:")
 print(missing.to_string())
 
-# 3. Automatically exclude constant features for this training run
+# 3. Automatically exclude constant features AND forced exclusions
 active_features = [
     col for col in ALL_FEATURES
     if df[col].nunique(dropna=True) > 1
+    and col not in FORCE_EXCLUDED_FEATURES
 ]
 
 excluded_features = [
