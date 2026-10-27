@@ -99,7 +99,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -111,8 +111,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -194,7 +194,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -206,8 +206,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -289,7 +289,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -301,8 +301,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -384,7 +384,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -396,8 +396,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -479,7 +479,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -491,8 +491,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -758,7 +758,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -770,8 +770,8 @@
                   "values": true
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -853,7 +853,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -865,8 +865,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -948,7 +948,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -960,8 +960,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -1043,7 +1043,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -1055,8 +1055,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -1453,7 +1453,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -1465,8 +1465,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -1548,7 +1548,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -1560,8 +1560,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -1643,7 +1643,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -1655,8 +1655,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -1830,7 +1830,7 @@
             "spec": {
               "options": {
                 "colorMode": "value",
-                "graphMode": "area",
+                "graphMode": "none",
                 "justifyMode": "auto",
                 "orientation": "auto",
                 "percentChangeColorMode": "standard",
@@ -1842,8 +1842,8 @@
                   "values": false
                 },
                 "showPercentChange": false,
-                "textMode": "auto",
-                "wideLayout": true
+                "textMode": "value",
+                "wideLayout": false
               },
               "fieldConfig": {
                 "defaults": {
@@ -1967,266 +1967,26 @@
       "kind": "GridLayout",
       "spec": {
         "items": [
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 0,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-1"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 0,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-2"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 8,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-5"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 8,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-4"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 16,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-7"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 16,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-6"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 24,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-9"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 24,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-8"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 32,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-10"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 32,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-11"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 40,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-12"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 40,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-13"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 48,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-14"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 48,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-15"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 56,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-16"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 56,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-18"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 64,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-19"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 64,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-20"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 0,
-              "y": 72,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-21"
-              }
-            }
-          },
-          {
-            "kind": "GridLayoutItem",
-            "spec": {
-              "x": 12,
-              "y": 72,
-              "width": 12,
-              "height": 8,
-              "element": {
-                "kind": "ElementReference",
-                "name": "panel-22"
-              }
-            }
-          }
+          { "kind": "GridLayoutItem", "spec": { "x": 0, "y": 0, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-1" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 6, "y": 0, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-2" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 12, "y": 0, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-5" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 18, "y": 0, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-4" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 0, "y": 5, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-8" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 6, "y": 5, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-10" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 12, "y": 5, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-11" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 18, "y": 5, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-12" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 0, "y": 10, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-13" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 6, "y": 10, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-16" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 12, "y": 10, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-18" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 18, "y": 10, "width": 6, "height": 5, "element": { "kind": "ElementReference", "name": "panel-19" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 0, "y": 15, "width": 12, "height": 8, "element": { "kind": "ElementReference", "name": "panel-7" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 12, "y": 15, "width": 12, "height": 8, "element": { "kind": "ElementReference", "name": "panel-9" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 0, "y": 23, "width": 12, "height": 8, "element": { "kind": "ElementReference", "name": "panel-14" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 12, "y": 23, "width": 12, "height": 8, "element": { "kind": "ElementReference", "name": "panel-15" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 0, "y": 31, "width": 12, "height": 8, "element": { "kind": "ElementReference", "name": "panel-20" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 12, "y": 31, "width": 12, "height": 8, "element": { "kind": "ElementReference", "name": "panel-21" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 0, "y": 39, "width": 12, "height": 8, "element": { "kind": "ElementReference", "name": "panel-22" } } },
+          { "kind": "GridLayoutItem", "spec": { "x": 12, "y": 39, "width": 12, "height": 8, "element": { "kind": "ElementReference", "name": "panel-6" } } }
         ]
       }
     },
