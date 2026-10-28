@@ -135,9 +135,11 @@ public class OutageProcessFunction
          * POC outage use case:
          * Power failure only.
          */
-        if (!"Power failure".equalsIgnoreCase(
-                eventName
-        )) {
+        boolean outageEvent =
+                "Power failure".equalsIgnoreCase(eventName)
+                || "Power restored".equalsIgnoreCase(eventName);
+
+        if (!outageEvent) {
             return;
         }
 
@@ -538,7 +540,7 @@ public class OutageProcessFunction
     ) {
 
         return LocalDateTime.parse(
-                value.trim(),
+                value.trim().replace('T', ' '),
                 INPUT_TIME_FORMATTER
         );
     }

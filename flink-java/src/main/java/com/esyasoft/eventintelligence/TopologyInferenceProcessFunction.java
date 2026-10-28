@@ -606,7 +606,7 @@ public class TopologyInferenceProcessFunction
     private LocalDateTime parseTime(String value) {
 
         return LocalDateTime.parse(
-                value,
+                value.trim().replace('T', ' '),
                 INPUT_TIME_FORMATTER
         );
     }

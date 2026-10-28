@@ -11,12 +11,6 @@ CREATE TABLE event_intelligence.processed_events (`msn` Nullable(String), `msn_i
 ;
 
 -- ------------------------------------------------------------
--- processed_events_queue
--- ------------------------------------------------------------
-CREATE TABLE event_intelligence.processed_events_queue (`msn` Nullable(String), `msn_id` Nullable(Int64), `evnt_id` Nullable(Int32), `event_ts` Nullable(String), `log_seq_no` Nullable(Int64), `v_r` Nullable(Float64), `v_y` Nullable(Float64), `v_b` Nullable(Float64), `validation_status` String, `validation_reason` Nullable(String)) ENGINE = Kafka SETTINGS kafka_broker_list = 'kafka-local:29092', kafka_topic_list = 'processed-smart-meter-events', kafka_group_name = 'clickhouse-processed-events-v1', kafka_format = 'JSONEachRow'
-;
-
--- ------------------------------------------------------------
 -- processed_events_queue_v2
 -- ------------------------------------------------------------
 CREATE TABLE event_intelligence.processed_events_queue_v2 (`msn` Nullable(String), `msn_id` Nullable(Int64), `evnt_id` Nullable(Int32), `event_ts` Nullable(String), `log_seq_no` Nullable(Int64), `v_r` Nullable(Float64), `v_y` Nullable(Float64), `v_b` Nullable(Float64), `validation_status` String, `validation_reason` Nullable(String), `event_catalogue_match` Nullable(Bool), `event_tblrefid` Nullable(Int32), `event_name` Nullable(String), `event_state` Nullable(String), `isrestoration` Nullable(Bool), `priorityname` Nullable(String), `eventclassification_name` Nullable(String), `hierarchy_match` Nullable(Bool), `msn_normalized` Nullable(String), `dtr_name` Nullable(String), `dtr_network_code` Nullable(String), `feeder_name` Nullable(String), `substation_name` Nullable(String)) ENGINE = Kafka SETTINGS kafka_broker_list = 'kafka-local:29092', kafka_topic_list = 'processed-smart-meter-events', kafka_group_name = 'clickhouse-processed-events-v1', kafka_format = 'JSONEachRow', kafka_num_consumers = 1
@@ -68,12 +62,6 @@ CREATE TABLE event_intelligence.anomaly_detection_results (`msn` String, `window
 -- anomaly_detection_results_queue
 -- ------------------------------------------------------------
 CREATE TABLE event_intelligence.anomaly_detection_results_queue (`msn` String, `window_start` String, `window_end` String, `event_count_15m` UInt64, `avg_voltage_15m` Nullable(Float64), `voltage_range_15m` Nullable(Float64), `power_failure_count_15m` UInt64, `use_case` String, `model_type` String, `sklearn_version` String, `model_contamination` Float64, `prediction` String, `confidence` Nullable(Float64), `anomaly_score` Nullable(Float64), `severity` String, `reason` String, `recommendation` String) ENGINE = Kafka SETTINGS kafka_broker_list = 'kafka-local:29092', kafka_topic_list = 'anomaly-detection-results', kafka_group_name = 'clickhouse-anomaly-detection-v1', kafka_format = 'JSONEachRow', kafka_num_consumers = 1
-;
-
--- ------------------------------------------------------------
--- processed_events_mv
--- ------------------------------------------------------------
-CREATE MATERIALIZED VIEW event_intelligence.processed_events_mv TO event_intelligence.processed_events (`msn` Nullable(String), `msn_id` Nullable(Int64), `evnt_id` Nullable(Int32), `event_ts` Nullable(String), `log_seq_no` Nullable(Int64), `v_r` Nullable(Float64), `v_y` Nullable(Float64), `v_b` Nullable(Float64), `validation_status` String, `validation_reason` Nullable(String)) AS SELECT msn, msn_id, evnt_id, event_ts, log_seq_no, v_r, v_y, v_b, validation_status, validation_reason FROM event_intelligence.processed_events_queue
 ;
 
 -- ------------------------------------------------------------

@@ -37,6 +37,9 @@ public class EventIntelligenceJob {
                         .getExecutionEnvironment();
 
         env.setParallelism(1);
+        // Periodic checkpoints allow the Kafka sinks to flush and commit
+        // analytics results while the streaming job remains running.
+        env.enableCheckpointing(5_000);
 
         /*
          * Kafka source.
